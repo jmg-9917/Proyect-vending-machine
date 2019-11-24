@@ -203,7 +203,7 @@
       </component>
       <vspacer id="ec49a">
         <constraints>
-          <grid row="1" column="3" row-span="7" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="3" row-span="8" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <component id="9694d" class="javax.swing.JTextField" binding="price">
