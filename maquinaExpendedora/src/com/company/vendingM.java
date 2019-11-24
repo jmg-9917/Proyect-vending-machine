@@ -31,6 +31,7 @@ public class vendingM {
     private JTextField moneyDisplay;
     private JButton SELECTButton;
     private JTextField status;
+    private JButton GIVEMEMY$Button;
 
     // dinero introducido
      static int money;
@@ -73,8 +74,7 @@ public class vendingM {
      static int C2cant = 12;
      static int C3cant = 10;
 
-      static int chan;
-    static String remaining = Integer.toString(chan);
+
 
 
     public vendingM() {
@@ -145,6 +145,7 @@ public class vendingM {
             changeDisplay.setText(null);
             selection.setText(null);
             price.setText(null);
+            status.setText(null);
             }
         });
 
@@ -157,13 +158,21 @@ public class vendingM {
                 if (mainDisplay.getText().equals("A1")){
                 if(A1cant>0)
                     {
-                        A1cant = A1cant - 1;
-                        int remains = Integer.parseInt(String.valueOf(moneyDisplay.getText())) - Integer.parseInt(String.valueOf(price.getText()));
-                        chan = remains;
-                        String total = Integer.toString(Integer.parseInt(moneyDisplay.getText()));
-                        int TOTAL = Integer.parseInt(total);
-                        if (remains>=TOTAL)
-                        changeDisplay.setText(remaining);
+                        // calculo y validacion, si no es suficiente, entonces pondra un texto que comunique eso
+                        int remains = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(price.getText());
+                        String broke = "Not enough $.";
+                        String minus = Integer.toString(remains);
+
+                        if (remains >=0)
+                        {
+                            int value = Integer.parseInt(price.getText()) ;
+                            money=money-value;
+                            changeDisplay.setText(minus);
+
+                        }
+                        else{
+                            changeDisplay.setText(broke);
+                        }
 
                         status.setText(afirmative);
 
@@ -181,57 +190,59 @@ public class vendingM {
                 }
                 }
 
-                if (mainDisplay.getText().equals("A2")){
-                if (A2cant>0)
+                if (mainDisplay.getText().equals("A2")) {
+                    if (A2cant > 0) {
+                        int remains = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(price.getText());
+                        String broke = "Not enough $.";
+                        String minus = Integer.toString(remains);
+
+                        if (remains >=0)
+                        {
+                            int value = Integer.parseInt(price.getText()) ;
+                            money=money-value;
+                            changeDisplay.setText(minus);
+
+                        }
+                        else{
+                            changeDisplay.setText(broke);
+                        }
+
+                        status.setText(afirmative);
+
+                    }
+                    else
                     {
 
-                        int remaining = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(String.valueOf(price));
-                        String remains = Integer.toString(remaining);
-                        changeDisplay.setText(remains);
-                        A2cant = A2cant - 1;
-                        status.setText(afirmative);
+                        mainDisplay.setText(null);
+                        selection.setText(null);
+                        price.setText(null);
+                        changeDisplay.setText(null);
+                        status.setText(negative);
+
+
                     }
-                else
-                {
-
-                    mainDisplay.setText(null);
-                    selection.setText(null);
-                    price.setText(null);
-                    changeDisplay.setText(null);
-                    status.setText(negative);
 
 
-                }
-                }
-
-                if (mainDisplay.getText().equals("A3")){
-                if (A3cant>0)
-                    {
-                        int remaining = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(String.valueOf(price));
-                        String remains = Integer.toString(remaining);
-                        changeDisplay.setText(remains);
-                        A3cant = A3cant - 1;
-                        status.setText(afirmative);
                     }
-                else
-                {
 
-                    mainDisplay.setText(null);
-                    selection.setText(null);
-                    price.setText(null);
-                    changeDisplay.setText(null);
-                    status.setText(negative);
-
-
-                }
-                }
 
                 if (mainDisplay.getText().equals("B1")) {
                     if (B1cant > 0) {
-                        int remaining = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(String.valueOf(price));
-                        String remains = Integer.toString(remaining);
-                        changeDisplay.setText(remains);
-                        B1cant = B1cant - 1;
+                        int remains = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(price.getText());
+                        String broke = "Not enough $.";
+                        String minus = Integer.toString(remains);
+
+                        if (remains >=0)
+                        {
+                            int value = Integer.parseInt(price.getText()) ;
+                            money=money-value;
+                            changeDisplay.setText(minus);
+
+                        }
+                        else{
+                            changeDisplay.setText(broke);
+                        }
+
                         status.setText(afirmative);
 
                     }
@@ -250,10 +261,21 @@ public class vendingM {
 
                 if (mainDisplay.getText().equals("B2")) {
                     if (B2cant > 0) {
-                        int remaining = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(String.valueOf(price));
-                        String remains = Integer.toString(remaining);
-                        changeDisplay.setText(remains);
-                        B2cant = B2cant - 1;
+                        int remains = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(price.getText());
+                        String broke = "Not enough $.";
+                        String minus = Integer.toString(remains);
+
+                        if (remains >=0)
+                        {
+                            int value = Integer.parseInt(price.getText()) ;
+                            money=money-value;
+                            changeDisplay.setText(minus);
+
+                        }
+                        else{
+                            changeDisplay.setText(broke);
+                        }
+
                         status.setText(afirmative);
 
                     }
@@ -270,36 +292,24 @@ public class vendingM {
                     }
                 }
 
-                if (mainDisplay.getText().equals("B3")){
-                if (B3cant>0)
-                    {
-                        int remaining = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(String.valueOf(price));
-                        String remains = Integer.toString(remaining);
-                        changeDisplay.setText(remains);
-                        B3cant = B3cant - 1;
-                        status.setText(afirmative);
-
-                    }
-                else
-                {
-
-                    mainDisplay.setText(null);
-                    selection.setText(null);
-                    price.setText(null);
-                    changeDisplay.setText(null);
-                    status.setText(negative);
-
-
-                }
-                }
-
                 if (mainDisplay.getText().equals("C1")){
                 if (C1cant>0)
                     {
-                        int remaining = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(String.valueOf(price));
-                        String remains = Integer.toString(remaining);
-                        changeDisplay.setText(remains);
-                        C1cant = C1cant - 1;
+                        int remains = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(price.getText());
+                        String broke = "Not enough $.";
+                        String minus = Integer.toString(remains);
+
+                        if (remains >=0)
+                        {
+                            int value = Integer.parseInt(price.getText()) ;
+                            money=money-value;
+                            changeDisplay.setText(minus);
+
+                        }
+                        else{
+                            changeDisplay.setText(broke);
+                        }
+
                         status.setText(afirmative);
 
                     }
@@ -314,32 +324,6 @@ public class vendingM {
 
 
                 }
-                }
-
-                if (mainDisplay.getText().equals("C2")){
-                if (C2cant>0)
-                    {
-                        int remaining = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(String.valueOf(price));
-                        String remains = Integer.toString(remaining);
-
-                        C2cant = C2cant - 1;
-                        changeDisplay.setText(remains);
-                        status.setText(afirmative);
-
-                    }
-                     // si no hay stock, reinicia el mainDisplay, selection, price, changeDisplay y pone que no hay stock, que elija otro
-                     else
-                    {
-
-                            mainDisplay.setText(null);
-                            selection.setText(null);
-                            price.setText(null);
-                            changeDisplay.setText(null);
-                            status.setText(negative);
-
-
-                    }
-
                 }
 
 
@@ -347,23 +331,34 @@ public class vendingM {
                 if (mainDisplay.getText().equals("C3"))
                 if (C3cant>0)
                 {
-                    int remaining = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(String.valueOf(price));
-                    String remains = Integer.toString(remaining);
-                    changeDisplay.setText(remains);
-                    C3cant = C3cant-1;
+                    int remains = Integer.parseInt(moneyDisplay.getText()) - Integer.parseInt(price.getText());
+                    String broke = "Not enough $. Pick another one";
+                    String minus = Integer.toString(remains);
+
+                    if (remains >=0)
+                    {
+                        int value = Integer.parseInt(price.getText()) ;
+                        money=money-value;
+                        changeDisplay.setText(minus);
+
+                    }
+                    else{
+                        changeDisplay.setText(broke);
+                    }
+
                     status.setText(afirmative);
 
                 }
                 else
                 {
-                    {
-                        mainDisplay.setText(null);
-                        selection.setText(null);
-                        price.setText(null);
-                        changeDisplay.setText(null);
-                        status.setText(negative);
 
-                    }
+                    mainDisplay.setText(null);
+                    selection.setText(null);
+                    price.setText(null);
+                    changeDisplay.setText(null);
+                    status.setText(negative);
+
+
                 }
 
             }
@@ -479,6 +474,13 @@ public class vendingM {
                     price.setText(String.valueOf(C3$));
                 }
 
+            }
+        });
+        GIVEMEMY$Button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                money = 0;
+                moneyDisplay.setText(null);
             }
         });
     }
