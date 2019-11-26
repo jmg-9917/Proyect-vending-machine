@@ -5,7 +5,16 @@
     <constraints>
       <xy x="21" y="44" width="935" height="267"/>
     </constraints>
-    <properties/>
+    <properties>
+      <autoscrolls value="false"/>
+      <background color="-851972"/>
+      <doubleBuffered value="false"/>
+      <font name="Comic Sans MS" style="0"/>
+      <foreground color="-262147"/>
+      <inheritsPopupMenu value="true"/>
+      <opaque value="true"/>
+      <verifyInputWhenFocusTarget value="true"/>
+    </properties>
     <border type="none"/>
     <children>
       <component id="cfc63" class="javax.swing.JLabel">
@@ -13,6 +22,8 @@
           <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="B3"/>
         </properties>
       </component>
@@ -21,6 +32,8 @@
           <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="B2"/>
         </properties>
       </component>
@@ -29,6 +42,8 @@
           <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="B1"/>
         </properties>
       </component>
@@ -37,6 +52,8 @@
           <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="C1"/>
         </properties>
       </component>
@@ -45,6 +62,8 @@
           <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="C2"/>
         </properties>
       </component>
@@ -53,6 +72,8 @@
           <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="C3"/>
         </properties>
       </component>
@@ -61,6 +82,8 @@
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="A1"/>
         </properties>
       </component>
@@ -69,6 +92,8 @@
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="A2"/>
         </properties>
       </component>
@@ -77,16 +102,9 @@
           <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="A3"/>
-        </properties>
-      </component>
-      <component id="d99c8" class="javax.swing.JLabel">
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <icon value="images/cookie (1).png"/>
-          <text value=""/>
         </properties>
       </component>
       <component id="728cb" class="javax.swing.JLabel">
@@ -94,6 +112,7 @@
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8750470"/>
           <icon value="images/cookie (2).png"/>
           <text value=""/>
         </properties>
@@ -103,6 +122,7 @@
           <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8750470"/>
           <icon value="images/cookie (3).png"/>
           <text value=""/>
         </properties>
@@ -112,6 +132,7 @@
           <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8750470"/>
           <icon value="images/cookie (2).png"/>
           <text value=""/>
         </properties>
@@ -121,6 +142,7 @@
           <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8750470"/>
           <icon value="images/cookie.png"/>
           <text value=""/>
         </properties>
@@ -130,6 +152,7 @@
           <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8750470"/>
           <icon value="images/cookie (1).png"/>
           <text value=""/>
         </properties>
@@ -139,6 +162,7 @@
           <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8750470"/>
           <icon value="images/cookie (3).png"/>
           <text value=""/>
         </properties>
@@ -148,6 +172,7 @@
           <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8750470"/>
           <icon value="images/cookie (1).png"/>
           <text value=""/>
         </properties>
@@ -157,6 +182,7 @@
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-8750470"/>
           <icon value="images/cookie.png"/>
           <text value=""/>
         </properties>
@@ -166,6 +192,8 @@
           <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="Change:"/>
         </properties>
       </component>
@@ -190,6 +218,8 @@
           <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="Insert coins:"/>
         </properties>
       </component>
@@ -198,6 +228,8 @@
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="Products"/>
         </properties>
       </component>
@@ -219,6 +251,8 @@
           <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="You chose:"/>
         </properties>
       </component>
@@ -227,6 +261,8 @@
           <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="Price:"/>
         </properties>
       </component>
@@ -235,6 +271,8 @@
           <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="Money:"/>
         </properties>
       </component>
@@ -251,6 +289,8 @@
           <grid row="0" column="4" row-span="1" col-span="9" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="14" style="1"/>
+          <foreground color="-16777216"/>
           <text value="Welcome, please choose the product you want and insert the necessary coins . . . or viceversa. "/>
         </properties>
       </component>
@@ -270,7 +310,15 @@
           <grid row="6" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="C"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="a136" class="javax.swing.JButton" binding="a1Button" default-binding="true">
@@ -278,7 +326,15 @@
           <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="1"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="62a24" class="javax.swing.JButton" binding="aButton" default-binding="true">
@@ -286,7 +342,16 @@
           <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <borderPainted value="true"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="A"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="3507f" class="javax.swing.JButton" binding="bButton" default-binding="true">
@@ -294,7 +359,15 @@
           <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="B"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="686cc" class="javax.swing.JButton" binding="b2Button">
@@ -302,7 +375,15 @@
           <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="2"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="485b0" class="javax.swing.JButton" binding="c3Button">
@@ -310,7 +391,15 @@
           <grid row="6" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="3"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="49c3f" class="javax.swing.JButton" binding="ENTERButton" default-binding="true">
@@ -318,7 +407,15 @@
           <grid row="7" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="ENTER"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="ecf6a" class="javax.swing.JButton" binding="SELECTButton" default-binding="true">
@@ -326,7 +423,15 @@
           <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="SELECT"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="a96bb" class="javax.swing.JTextField" binding="selection">
@@ -342,7 +447,15 @@
           <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="INSERT"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="baddd" class="javax.swing.JButton" binding="DELETEButton" default-binding="true">
@@ -350,15 +463,15 @@
           <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="DELETE"/>
-        </properties>
-      </component>
-      <component id="5ca89" class="javax.swing.JButton" binding="CLEARButton" default-binding="true">
-        <constraints>
-          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="CLEAR"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
       <component id="b3c8f" class="javax.swing.JTextField" binding="status">
@@ -374,6 +487,8 @@
           <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
           <text value="Is there  any stock left?"/>
         </properties>
       </component>
@@ -382,7 +497,41 @@
           <grid row="7" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
           <text value="GIVE ME MY $"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="d99c8" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-8750470"/>
+          <icon value="images/cookie (1).png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="5ca89" class="javax.swing.JButton" binding="CLEARButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-5194043"/>
+          <doubleBuffered value="false"/>
+          <font name="Century Gothic" size="12" style="1"/>
+          <foreground color="-16777216"/>
+          <horizontalTextPosition value="0"/>
+          <opaque value="false"/>
+          <text value="CLEAR"/>
+          <verifyInputWhenFocusTarget value="true"/>
         </properties>
       </component>
     </children>
